@@ -184,7 +184,6 @@ if __name__ == "__main__":
         keypress = cv2.waitKey(1) & 0xFF
 
 
-
 # free up memory
 camera.release()
 cv2.destroyAllWindows()
